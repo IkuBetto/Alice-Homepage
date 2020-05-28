@@ -1,0 +1,162 @@
+
+
+.path-tree{
+}
+
+.path-tree p{
+    margin: 0;
+    padding: 40px;
+    font-size: 8pt;
+    color: gray;
+}
+
+.company-title{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 35vh;
+}
+
+.company-title img{
+    position: absolute;
+    right: 50px;
+    height: 100%;
+}
+
+.company-sentence{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.company-sentence p{
+    font-weight: 500;
+    margin: 0;
+}
+
+.company-ja{
+    font-size: 25pt;
+}
+
+.company-en{
+    padding-top: 10px;
+    font-size: 12pt;
+}
+
+.companys{
+    font-family: "メイリオ";
+    width: 100%;
+   }
+
+dl {
+    display:flex;
+    flex-wrap:wrap; 
+}
+dl div{
+    box-sizing:border-box;
+    width:50%;
+    padding:50px;
+}
+dt{
+    font-size:12pt;
+    font-weight: 700;
+    border-bottom:1px solid #F2F2F2;
+}
+dd{
+    padding-top:20px;
+    padding-left: 0px;
+    font-size: 11px;
+}
+dd img{
+    float:right;
+    width:50%;
+    margin-right: 40px;
+    margin-left:10px;
+}
+
+dd a{
+    color:#3F9BA9;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+/* .company hr{
+     width: 100%;
+    margin: 30px 0;
+}
+
+.company h1{
+    font-size: 19.5pt;
+}
+
+.company p{
+    font-size: 10pt;
+    width: 290px;
+} */
+.explanation{
+    margin: 0;
+    float: left;
+}
+
+/*.company img{
+    float: right;
+    position: absolute;
+    width: 45%;
+    right: 0;
+    }
+*/ 
+/* .company h2{
+    margin: 10px 0;
+    float: right;
+    width: 254px;
+    height: 178px;
+    background-color: #F2F2F2
+} */
+
+.contact{
+    font-family: "メイリオ";
+    text-align: center; 
+    padding: 20px;
+    background-color: #eff3f3;
+    margin:60px;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.fs-17{
+    font-size: 17pt;
+}
+
+.fs-75{
+    font-size: 7.5pt;
+    padding: 2px 5px;
+}
+
+.mail-contact{
+    padding: 10px 0;
+}
+
+.tel-num{
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mail-contact-form{
+    display: inline-block;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+
+a{
+    margin-top: 30px;
+    font-size: 10.5pt;
+    width: 75%;
+    text-decoration: none;
+}
+

@@ -1,0 +1,118 @@
+body{
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 0;
+    font-family: serif;
+}
+
+.top-container{
+    height: 100vh;
+    background-color: black;
+}
+.top-container{
+    height: 100vh;
+    background-color: #fff;
+}
+.header-footer-container{
+    background-color: black;
+    height: 10%;
+    padding: 0;
+    width: auto;
+}
+.header-logo p{
+    padding-top: 15px;
+    padding-left: 30px;
+    margin: 0;
+    color: white;
+    font-size: 19pt;
+}
+.fs-15{
+    font-size: 15pt;
+}
+.float-left{
+    float: left;
+}
+
+.color-alice{
+    color: #47baa8;
+}
+.float-right{
+    float: right;
+}
+.header-list{
+    padding-right: 30px;
+    margin: 0;
+    height: 100%;
+    list-style: none;
+}
+.header-list li{
+    float: left;
+    font-size: 10.5pt;
+    color: white;
+    padding: 32px 30px;
+}
+.header-top{
+    height: 10vh;
+    background-color: black;
+    overflow: auto;
+}
+
+.footer-index{
+    overflow: auto;
+    background-color: #eff3f3;
+    height: 50vh;
+}
+
+.footer-contents{
+    float: left;
+    width: 25vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-contents-list{
+    font-family: "メイリオ";
+    padding: 0 20px;
+    font-size: 9pt;
+    margin-top: 20px;
+}
+
+.footer-contents-list p{
+    padding: 5px 0;
+    margin: 0;
+}
+
+.footer-contents-list li{
+     padding: 5px 0;
+}
+
+.footer-bottom{
+    height: 35pt;
+    background-color: black;
+}
+
+.footer-bottom-list{
+    margin: 15px 0;
+}
+
+.footer-bottom-list li{
+    float: left;
+    text-align: center;
+    font-size: 8pt;
+    padding-right: 30px;
+    color: white;
+}
+
+.footer-bottom-copyright{
+    font-size: 8pt;
+    padding: 4px 10px;
+    text-align: center;
+    color: white;
+}
+
+.mt-30{
+    margin-top: 30px;
+}

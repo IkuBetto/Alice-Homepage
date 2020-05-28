@@ -1,0 +1,134 @@
+
+.top-container{
+    height: 100vh;
+    background-color: #fff;
+}
+.main-container{
+	width: 80%;
+	margin: 0 auto;
+}
+.first{
+	background-color: #f2f2f2; 
+}
+table{
+	width: 100%;
+	border: solid 1px #fff; 
+	border-collapse: collapse;
+	margin-bottom: 50px;
+}
+th{
+	width: 30%;
+	border: solid 1px #fff; 
+	border-collapse: collapse;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+td{
+	width: 70%;
+	border: solid 1px #fff; 
+	border-collapse: collapse;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+input{
+	padding: 0 0 0 5px;
+    color: #CCC;
+    background-color: #f2f2f2;
+    border: #d9d9d9 solid 1px;
+    width: 70%;
+    height: 28px;
+    margin: 15px 0 15px 20px;
+}
+textarea{
+	height: 160px;
+    width: 90%;
+    margin: 0 0 0 20px;
+    background-color: #f2f2f2;
+    color: #CCC;
+    background-color: #f2f2f2;
+    border: #d9d9d9 solid 1px;
+}
+.button-container{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+button{
+    text-decoration:none;
+    color:#fff;
+    background-color:#49a9d4;
+    border-color: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.first a{
+    margin-left: 15px;
+    color: #000;
+}
+.first p{
+    margin-left: 15px;
+}
+.first img{
+    margin-left: 15px;
+}
+.second{
+	background-color: #fafafa;
+}
+.mail-contact{
+    padding: 10px 0;
+}
+.tel-num{
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mail-contact-form{
+    font-size: 10pt;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer-index{
+    background-color: #eff3f3;
+    height: 310px;
+}
+.footer-contents{
+    float: left;
+    width: 25vw;
+}
+ul{
+    list-style: none;
+}
+.footer-contents-list{
+    padding: 0 30px;
+    font-size: 9pt;
+    margin-top: 10px;
+}
+.footer-contents-list p{
+    padding: 5px 0;
+    margin: 0;
+}
+.footer-contents-list li{
+    padding: 5px 0;
+}
+.footer-bottom{
+    height: 35pt;
+    background-color: black;
+}
+.footer-bottom-index{
+    text-align: left;       
+}
+.footer-bottom-list li{
+    float: left;
+    font-size: 8pt;
+    color: white;
+    padding-right: 30px;
+}
+.footer-bottom-copyright{
+    font-size: 8pt;
+    padding: 7px 10px;
+    color: white;
+}
+
+.mt-30{
+    margin-top: 30px;
+}

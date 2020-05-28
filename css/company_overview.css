@@ -1,0 +1,177 @@
+
+
+.path-tree{
+}
+
+.path-tree p{
+    margin: 0;
+    padding: 40px;
+    font-size: 8pt;
+    color: gray;
+}
+
+.overview{
+	font-family: "メイリオ";
+	margin:0 95px;
+}
+
+.overview hr{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.overview h1{
+    padding: 0;
+	margin: 0;
+    font-size: 19.5pt;
+}
+
+.profile{
+    width: 100%;
+     margin: 0;
+    border-collapse: collapse;
+}
+
+.profile th{
+    padding: 20px 0 20px 20px;
+    vertical-align: top;
+    text-align: left;
+    background-color:#eff3f3;
+    border-width:1px 0px;
+    border-color:#4D4D4D;
+    border-style: solid;
+    width: 25%;
+}
+
+.profile td{
+    padding: 20px 0 20px 20px;
+    padding-left:20px; 
+    border-width:1px 0px;
+    border-color:#4D4D4D;
+    border-style: solid;
+}
+
+.director td{
+    padding:0 0 10px 0;
+    border: 0 none;
+
+}
+
+.bank td{
+    padding:0 20px 10px 0;
+    border: 0 none;
+} 
+
+ .profile ul{
+    margin:0;
+    padding:0 0 10px 0;
+}
+
+.profile li{
+    padding:0 0 10px 0;
+}
+
+.contact{
+    font-family: "メイリオ";
+    text-align: center; 
+    padding: 20px;
+    background-color: #eff3f3;
+    margin: 60px 95px;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.fs-17{
+    font-size: 17pt;
+}
+
+.fs-75{
+    font-size: 8pt;
+    padding: 2px 5px;
+}
+
+.mail-contact{
+    padding: 5px 0 10px;
+}
+
+.tel-num{
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mail-contact-form{
+    display: inline-block;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+
+.footer-index{
+    overflow: auto;
+    background-color: #eff3f3;
+    height: 50vh;
+}
+
+.footer-contents{
+    float: left;
+    width: 25vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-contents-list{
+    font-family: "メイリオ";
+    padding: 0 20px;
+    font-size: 9pt;
+    margin-top: 20px;
+}
+
+.footer-contents-list p{
+    padding: 5px 0;
+    margin: 0;
+}
+
+.footer-contents-list li{
+     padding: 5px 0;
+}
+
+.footer-bottom{
+    height: 35pt;
+    background-color: black;
+}
+
+.footer-bottom-list{
+    margin: 15px 0;
+}
+
+.footer-bottom-list li{
+    float: left;
+    text-align: center;
+    font-size: 8pt;
+    padding-right: 30px;
+    color: white;
+}
+
+.footer-bottom-copyright{
+    font-size: 8pt;
+    padding: 4px 10px;
+    text-align: center;
+    color: white;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+a{
+    margin-top: 30px;
+    font-size: 10.5pt;
+    width: 75%;
+    text-decoration: none;
+}

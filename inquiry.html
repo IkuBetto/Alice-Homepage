@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/inquiry.css">
+    <link rel="stylesheet" href="css/header-footer.css"> 
+</head>
+<body>
+    <div class="top-container">
+        <div class="header-footer-container">
+            <div class="header-logo float-left">
+                <p><span class="color-alice">A</span>lice <span class="fs-15">inc.</span></p>
+            </div>
+            <ul class="header-list float-right">
+                <li>HOME</li>
+                <li>選ばれる理由</li>
+                <li>ソリューション</li>
+                <li>インダストリー</li>
+                <li>企業情報</li>
+                <li>お問い合わせ</li>
+            </ul>    
+        </div>
+        <div class="main-container">
+            <h1>お問い合わせ</h1>
+            <p>必要事項を入力の上、お問い合わせ内容をご記入ください。</p>
+            <p>必須項目は必ずご記入ください。</p>
+            <form action="./confirm.php" method="post">
+            <table>
+                <tr class="first">
+                    <th>氏名</th>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr class="second">
+                    <th>貴社名</th>
+                    <td><input type="text" name="office"></td>
+                </tr>
+                <tr class="first">
+                    <th>所属部署</th>
+                    <td><input type="text" name="department"></td>
+                </tr>
+                <tr class="second">
+                    <th>電話番号</th>
+                    <td><input type="number" name="tel"></td>
+                </tr>
+                <tr class="first">
+                    <th>メールアドレス</th>
+                    <td><input type="text" name="mail"></td>
+                </tr>
+                <tr class="second">
+                    <th>お問い合わせ内容</th>
+                    <td><textarea cols="30" rows="20" name="contents"></textarea></td>
+                </tr>
+                <tr class="first">
+                    <th>文字認証</th>
+                    <td><input type="text" name="captcha_code"><br><p>下に入力されている文字を入力してください。</p><p><img id="captcha" src="securimage/securimage_show.php"></p><br>
+                        <a href="#" onclick="document.getElementById('captcha').src = 'securimage/securimage_show.php?' + Math.random(); return false;">画像再生成</a></td>
+                </tr>
+
+            </table>
+            <div class="button-container">
+                <button type="submit">確認画面へ</button>
+            </div>
+            </form>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-index">
+                <ul class="footer-bottom-list float-left">
+                    <li>サイトポリシー</li>
+                    <li>情報セキュリティ基本方針</li>
+                    <li>個人情報保護方針</li>
+                    <li>電子公告</li>
+                </ul>
+            </div>
+            <div class="footer-bottom-copyright float-right">
+                <p>Copyright @ Alice Inc.</p>
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/textyle.min.js"></script>
+<!-- <script src="js/particles.js"></script> -->
+<!-- <script src="js/top_page.js"></script> -->
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+<script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+<!-- <script type="text/javascript" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script> -->
+
+</body>
+</html>

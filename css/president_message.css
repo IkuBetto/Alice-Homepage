@@ -1,0 +1,94 @@
+
+
+.path-tree{
+}
+
+.path-tree p{
+    margin: 0;
+    padding: 40px;
+    font-size: 8pt;
+    color: gray;
+}
+
+.message{
+	font-family: "メイリオ";
+	margin:0 95px;
+}
+
+.message hr{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.message h1{
+	margin: 0;
+    font-size: 19.5pt;
+}
+/*.company img{
+    float: right;
+    position: absolute;
+    width: 45%;
+    right: 0;
+    }
+*/ 
+.message h2{
+    height: 500px;
+    width: 100%; 
+    margin: 0 0 30px 0;
+    background-color: #F2F2F2
+}
+
+.message p{
+	width: 100%;
+    font-size: 11pt;
+    width: 100%;
+}
+
+
+
+.contact{
+    font-family: "メイリオ";
+    text-align: center; 
+    padding: 20px;
+    background-color: #eff3f3;
+    margin: 60px 100px;
+}
+
+.contact p{
+    margin: 0;
+}
+
+.fs-17{
+    font-size: 17pt;
+}
+
+.fs-75{
+    font-size: 8pt;
+    padding: 2px 5px;
+}
+
+.mail-contact{
+    padding: 5px 0 10px;
+}
+
+.tel-num{
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mail-contact-form{
+    display: inline-block;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 10pt;
+    padding: 10px;
+}
+
+
+a{
+    margin-top: 30px;
+    font-size: 10.5pt;
+    width: 75%;
+    text-decoration: none;
+}

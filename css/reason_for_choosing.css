@@ -1,0 +1,68 @@
+
+.path-tree p{
+    margin: 0;
+    padding: 40px;
+    font-size: 8pt;
+    color: gray;
+}
+.reason-title{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 38vh;
+}
+.reason-title img{
+    position: absolute;
+    right: 50px;
+    height: 100%;
+}
+.reason-sentence{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.reason-sentence p{
+    font-weight: 500;
+    margin: 0;
+}
+.reason-ja{
+    font-size: 25pt;
+}
+.reason-en{
+    padding-top: 10px;
+    font-size: 12pt;
+}
+.five-reasons{
+    margin: 0;
+    padding: 60px 50px 0 50px;
+    font-size: 10.5pt;
+}
+.reasons{
+    padding: 50px;
+    overflow: auto;
+}
+.reasons-sentence{
+    float: left;
+    width: 50%;
+}
+.reasons hr{
+    margin: 30px 0;
+}
+.reasons h1{
+    font-size: 19.5pt;
+}
+.reasons-sentence h2{
+    font-size: 13.5pt;
+}
+.reasons-sentence p{
+    margin-top: 30px;
+    font-size: 10.5pt;
+    width: 100%;
+}
+.reasons img{
+    float: right;
+    width: 40%;
+    top: 160px;
+    right: 50px;
+}
+

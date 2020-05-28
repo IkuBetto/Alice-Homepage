@@ -1,0 +1,499 @@
+
+.header-top{
+    height: 15%;
+}
+.header-container{
+    height: 70%;
+    position: relative;
+}
+.header-container img{
+    height: 100%;
+}
+.header-container .header-sentence{
+    position: absolute;
+    color: white;
+    top: 18%;
+    right: 80px;
+    padding: 5px;
+    text-align: left;
+    font-family: "平成明朝 Std W5",serif;
+}
+.header-sentence{
+    background-color: rgba(0,0,0,0.3);
+    text-align: right;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-10%); 
+}
+
+.header-sentence h1{
+    font-size: 28pt;
+    display:inline-block;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+    font-weight: 500;
+}
+
+.header-sentence p{
+    text-align: left; 
+    padding: 0 10px;  
+}
+.bg-gray{
+    height: 20%;
+    background-color: #eff3f3;
+}
+
+.header-container-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.index_title{
+    padding: 0px 30px 0 30px;
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: left;
+}
+.index_container{
+    padding-left: 30px;
+    padding-right:50px;
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+.main-container{
+    padding: 20px 30px;
+}
+.sub-container{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center; /*左右中央揃え*/
+    align-items: center; 
+}
+.sub-container2{
+    padding: 20px 50px;
+}
+
+.fs-18{
+    font-size: 18pt;
+    font-weight: 500;
+    text-align: center;
+}
+.sub-desc{
+  font-size: 15pt;
+  font-weight: 400;
+  text-align: center;
+}
+.fadeInUp span{
+  font-weight: 400;
+}
+.partners{
+    margin: 0;
+}
+.main-container img{
+  width: 60%;
+  height: 60%;
+}
+.fadeInUp {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: 5s;
+  margin-right: 0px;
+}
+.partners-contents{
+    font-size: 12pt;
+    margin: 0 40px;
+}
+.partners-container{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.introduction-container{
+    width: 25%;
+    height: 50%;
+    display:inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.disc-container{
+  margin: 0 auto;
+  text-align: center;
+}
+.introduction{
+    background-color: #eff3f3;
+}
+.introduction .disc{
+    margin: 0;
+    padding: 10px 0; 
+    font-size: 16px;
+    text-align: left;
+}
+.introduction div{
+  
+}
+.introduction-detail{
+    color: #000000;
+    padding-left: 100px;
+}
+.news p{
+    font-size: 18pt;
+}
+.news-contents{
+    padding: 5px 0;
+}
+.date{
+    font-size: 14pt;
+}
+.com-info{
+    margin: 0 40px;
+    padding: 5px 40px;
+    background-color: #eff3f3;
+    font-size: 10pt;
+}
+.info-contents{
+    font-size: 14pt;
+}
+.overflow-auto{
+    overflow: auto;
+}
+.contact{
+    margin-right: 25px;
+    padding: 20px;
+    background-color: #eff3f3;
+}
+.contact p{
+    margin: 0;
+}
+.contact-p{
+    padding-bottom: 10px;
+}
+.fs-17{
+    font-size: 17pt;
+}
+.fs-75{
+    font-size: 7.5pt;
+    padding: 2px 5px;
+    
+}
+.mail-contact{
+    padding: 10px 0;
+}
+.tel-num{
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mail-contact-form{
+    font-size: 10pt;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+/* *, *:before, *:after {
+  box-sizing: border-box;
+} */
+
+.mast__title {
+  font-family: "平成明朝 Std W5",serif;
+  font-size: 28pt;
+  font-weight: 400;
+  line-height: 28pt;
+  text-align: left;
+}
+.mast__title2 {
+  font-family: "平成明朝 Std W5",serif;
+  font-size: 28pt;
+  font-weight: 400;
+  line-height: 28pt;
+  text-align: left;
+}
+.mast__title span {
+  -webkit-animation: letter-glow 0.7s 0s ease both;
+          animation: letter-glow 0.7s 0s ease both;
+}
+.mast__title2 span {
+  -webkit-animation: letter-glow 0.7s 0s ease both;
+          animation: letter-glow 0.7s 0s ease both;
+}
+.mast__title span:nth-child(1) {
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+}
+.mast__title span:nth-child(2) {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.mast__title span:nth-child(3) {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.mast__title span:nth-child(4) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.mast__title span:nth-child(5) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.mast__title span:nth-child(6) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.mast__title span:nth-child(7) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+.mast__title span:nth-child(8) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.mast__title span:nth-child(9) {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+.mast__title span:nth-child(10) {
+  -webkit-animation-delay: 1.0s;
+          animation-delay: 1.0s;
+}
+.mast__title span:nth-child(11) {
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+.mast__title span:nth-child(12) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.mast__title span:nth-child(13) {
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+.mast__title span:nth-child(14) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+.mast__title span:nth-child(15) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+.mast__title span:nth-child(16) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+.mast__title span:nth-child(17) {
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+.mast__title2 span:nth-child(1) {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+.mast__title2 span:nth-child(2) {
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+.mast__title2 span:nth-child(3) {
+  -webkit-animation-delay: 2.0s;
+          animation-delay: 2.0s;
+}
+.mast__title2 span:nth-child(4) {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+.mast__title2 span:nth-child(5) {
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
+}
+.mast__title2 span:nth-child(6) {
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+.mast__title2 span:nth-child(7) {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+.mast__title2 span:nth-child(8) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+.mast__title2 span:nth-child(9) {
+  -webkit-animation-delay: 2.6s;
+          animation-delay: 2.6s;
+}
+.mast__title2 span:nth-child(10) {
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+.mast__title2 span:nth-child(11) {
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
+}
+.mast__title2 span:nth-child(12) {
+  -webkit-animation-delay: 2.9s;
+          animation-delay: 2.9s;
+}
+.mast__title2 span:nth-child(13) {
+  -webkit-animation-delay: 3.0s;
+          animation-delay: 3.0s;
+}
+.mast__title2 span:nth-child(14) {
+  -webkit-animation-delay: 3.1s;
+          animation-delay: 3.1s;
+}
+.mast__title2 span:nth-child(15) {
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
+}
+.mast__title2 span:nth-child(16) {
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+}
+.mast__title2 span:nth-child(17) {
+  -webkit-animation-delay: 3.4s;
+          animation-delay: 3.4s;
+}
+
+.large-header {
+}
+.canvas {
+}
+
+@-webkit-keyframes letter-glow {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.1);
+  }
+  66% {
+    opacity: 1;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+  }
+  77% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes letter-glow {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.1);
+  }
+  66% {
+    opacity: 1;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.9);
+  }
+  77% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0);
+  }
+}
+.css-fade1 {
+  opacity: 0;
+}
+.css-fade1 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 4.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.css-fade2 {
+  opacity: 0;
+}
+.css-fade2 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 6.0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.css-fade3 {
+  opacity: 0;
+}
+.css-fade3 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 7.0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.css-fade4 {
+  opacity: 0;
+}
+.css-fade4 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 7.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.css-fade5 {
+  opacity: 0;
+}
+.css-fade5 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 8s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.css-fade6 {
+  opacity: 0;
+}
+.css-fade6 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 8.5s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.css-fade7 {
+  opacity: 0;
+}
+.css-fade7 {
+  animation-name: fade-in1;
+  animation-duration: 4s; 
+  animation-timing-function: ease-out;
+  animation-delay: 9s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#geometry {
+  width: 60%;
+  height: 100%;
+  float: left;
+  background-color:#000;
+  position: absolute;
+  top: 0px;
+}

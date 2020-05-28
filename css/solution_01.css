@@ -1,0 +1,150 @@
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-family: serif !important;
+}
+
+.header-logo p{
+    padding-top: 15px;
+    padding-left: 15px;
+    margin: 0;
+    color: white;
+    font-size: 28pt;
+}
+.fs-15{
+    font-size: 15pt;
+}
+.float_left{
+    float: left;
+}
+
+.color-alice{
+    color: #47baa8;
+}
+.float_right{
+    float: right;
+}
+.header-list{
+    margin: 0;
+    height: 100%;
+    list-style: none;
+}
+.header-list li{
+    float: left;
+    font-size: 13pt;
+    color: white;
+    padding: 32px 30px;
+}
+.header-top{
+    height: 10vh;
+    background-color: black;
+    overflow: auto;
+}
+.path-tree p{
+    margin: 0;
+    padding: 40px;
+    font-size: 8pt;
+    color: gray;
+}
+
+.solution-title{
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 38vh;
+}
+.solution-title img{
+    position: absolute;
+    right: 50px;
+    height: 100%;
+}
+.solution-sentence{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.solution-sentence p{
+    font-weight: 500;
+    margin: 0;
+}
+.solution-ja{
+    font-size: 25pt;
+}
+.solution-en{
+    padding-top: 10px;
+    font-size: 12pt;
+}
+.main{
+    margin: 20px 50px;
+}
+.text-main01{
+    font-size: 19.5pt;
+    padding: 50px 0 20px 0;
+}
+.text-main02{
+    font-size: 12pt;
+    padding: 20px 0 30px 0;
+}
+.items{
+    width: 100%;
+    margin: 0 !important;
+    border: 1px solid gray;
+}
+.items div{
+    text-align: center;
+}
+.item{
+    padding: 10px 30px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-lightgray{
+    background-color: #eff3f3;
+}
+
+.item-33{
+    padding-top: 20px;
+    font-size: 12pt;
+}
+.item-25{
+    font-size: 10pt;
+    padding-bottom: 10px;
+}
+
+.pickup-p{
+    padding-top: 50px;
+    font-size: 19.5pt;
+}
+.pickup-contents{
+    overflow: auto;
+    width: 100%;
+    padding: 30px 0;
+}
+.pickup-contents img{
+    width: 45%;;
+    float: left;
+}
+.text-block-pickup{
+    width: 45%;
+    padding-left: 10px;
+    float: right;
+}
+
+.text-block-pickup h1{
+    font-size: 13.5pt;
+    padding: 10px 0 30px 0;
+}
+
+.contents-text{
+    font-size: 10.5pt;
+    padding-bottom: 30px;
+}
+.detail-link{
+    font-size: 12pt;
+}
+
